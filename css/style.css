@@ -64,16 +64,18 @@ body {
   visibility: hidden;
 }
 .card .card-title {
+  margin-bottom: 20px;
+}
+.card .card-title h1 {
   font-weight: 600;
   font-size: 22px;
   line-height: 28px;
-  margin-bottom: 20px;
 }
-.card .card-title a {
+.card .card-title h1 a {
   text-decoration: none;
   color: #ffffff;
 }
-.card .card-title a:hover {
+.card .card-title h1 a:hover {
   color: hsl(178deg, 100%, 50%);
 }
 .card .card-info {
